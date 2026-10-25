@@ -1,0 +1,71 @@
+# Local environment files (keep the documented template tracked).
+.env
+.env.*
+!.env.example
+
+# Credentials, private keys, and certificates.
+secrets/
+**/secrets/
+*.secret
+*.credentials
+credentials.json
+*_credentials.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+
+# Local database exports and backups.
+*.sql.gz
+*.dump
+*.bak
+backups/
+**/backups/
+
+# macOS metadata and local scratch files.
+.DS_Store
+DS_Store
+*resilience project*
+
+# Original downloaded/renamed snapshots kept outside the final submission.
+Dockerfile(2)
+Dockerfile(3)
+Dockerfile(4)
+Dockerfile(5)
+Dockerfile(6)
+Dockerfile(7)
+README(1).md
+app.js
+app.py
+application-backup.cfg
+application-backup.conf
+application-master.cfg
+application-master.conf
+application.cfg
+architecture.cfg
+catalog(1).sql
+chaosmonkey.py
+check-haproxy.sh
+index(1).html
+index(1).js
+index(2).html
+index(3).html
+index.html
+init-db(1).js
+nginx.conf
+package(1).json
+presentation-backup.cfg
+presentation-backup.conf
+presentation-entry.cfg
+presentation-master.cfg
+presentation-master.conf
+presentation.cfg
+run(1).sh
+run(2).sh
+run.sh
+style.css
+/catalog.css
+/catalog.js
+
